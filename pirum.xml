@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<server>
+	<name>esendex.github.com/pear</name>
+	<summary>Esendex's PEAR Channel Server</summary>
+	<alias>esendex</alias>
+	<url>http://esendex.github.com/pear</url>
+</server>

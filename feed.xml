@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://esendex.github.com/pear</id>
+    <updated>2013-02-27T14:59:20+00:00</updated>
+    <title>Esendex's PEAR Channel Server Latest Releases</title>
+    <link href="http://esendex.github.com/pear/feed.xml" rel="self" />
+    <author>
+        <name>http://esendex.github.com/pear</name>
+    </author>
+
+
+</feed>
