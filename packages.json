@@ -1,3 +1,43 @@
-[
-
-]
+{
+    "pear-esendex\/Esendex": {
+        "versions": {
+            "1.0.0": {
+                "name": "pear-esendex\/Esendex",
+                "description": "Esendex PHP REST SDK",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/esendex.github.com\/pear\/get\/Esendex-1.0.0.tgz"
+                },
+                "version": "1.0.0",
+                "time": "2013-03-08T16:07:46+00:00",
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "suggest": {
+                    "pear-phpunit\/PHPUnit": "*"
+                },
+                "authors": [
+                    {
+                        "name": "Esendex Support",
+                        "email": "support@esendex.com",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "Esendex"
+                    ]
+                }
+            }
+        },
+        "name": "pear-esendex\/Esendex",
+        "description": "Esendex PHP REST SDK",
+        "maintainers": [
+            {
+                "name": "Esendex Support",
+                "email": "support@esendex.com",
+                "homepage": ""
+            }
+        ]
+    }
+}
