@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<r xmlns="http://pear.php.net/dtd/rest.release" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.release http://pear.php.net/dtd/rest.release.xsd">
+    <p xlink:href="/rest/p/esendex">Esendex</p>
+    <c>esendex.github.com/pear</c>
+    <v>1.0.4</v>
+    <st>stable</st>
+    <l>BSD-3-Clause</l>
+    <m>support</m>
+    <s>Esendex PHP REST SDK</s>
+    <d>The Esendex PHP SDK for developing SMS capable applications using our REST API.
+
+This library enables base functionality and examples of how to interact with the API.</d>
+    <da>2014-02-10 10:01:23</da>
+    <n>
+Initial release
+ </n>
+    <f>153578</f>
+    <g>http://esendex.github.com/pear/get/Esendex-1.0.4</g>
+    <x xlink:href="package.1.0.4.xml"/>
+</r>
