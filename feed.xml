@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://esendex.github.com/pear</id>
-    <updated>2014-06-26T09:32:46+01:00</updated>
+    <updated>2014-12-18T10:04:04+00:00</updated>
     <title>Esendex's PEAR Channel Server Latest Releases</title>
     <link href="http://esendex.github.com/pear/feed.xml" rel="self" />
     <author>
@@ -9,6 +9,19 @@
     </author>
 
     <entry>
+        <title>Esendex 1.0.6 (stable)</title>
+        <link href="http://esendex.github.com/pear/get/Esendex-1.0.6.tgz" />
+        <id>http://esendex.github.com/pear/get/Esendex-1.0.6.tgz</id>
+        <author>
+            <name>support</name>
+        </author>
+        <updated>2014-12-18T09:50:06+00:00</updated>
+        <content>
+            
+Initial release
+ 
+        </content>
+    </entry>    <entry>
         <title>Esendex 1.0.5 (stable)</title>
         <link href="http://esendex.github.com/pear/get/Esendex-1.0.5.tgz" />
         <id>http://esendex.github.com/pear/get/Esendex-1.0.5.tgz</id>

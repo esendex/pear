@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Esendex</name>
+ <channel>esendex.github.com/pear</channel>
+ <summary>Esendex PHP REST SDK</summary>
+ <description>The Esendex PHP SDK for developing SMS capable applications using our REST API.
+
+This library enables base functionality and examples of how to interact with the API.</description>
+ <lead>
+  <name>Esendex Support</name>
+  <user>support</user>
+  <email>support@esendex.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2014-12-18</date>
+ <time>09:50:06</time>
+ <version>
+  <release>1.0.6</release>
+  <api>1.0.0</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license filesource="LICENSE">BSD-3-Clause</license>
+ <notes>
+Initial release
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="8ed6d800614b07d81c2491092694a17a" name="Esendex/Esendex/Authentication/AbstractAuthentication.php" role="php" />
+   <file baseinstalldir="/" md5sum="31bb6a84acfe900099df55db834114e7" name="Esendex/Esendex/Authentication/IAuthentication.php" role="php" />
+   <file baseinstalldir="/" md5sum="242211e678d13d2e1878b20ee16fab2c" name="Esendex/Esendex/Authentication/LoginAuthentication.php" role="php" />
+   <file baseinstalldir="/" md5sum="b06e8fed2ad9c50379e59e3622544fa4" name="Esendex/Esendex/Authentication/SessionAuthentication.php" role="php" />
+   <file baseinstalldir="/" md5sum="a3db0e3cd0a0e8f036f5c868ea5c0b77" name="Esendex/Esendex/Exceptions/ArgumentException.php" role="php" />
+   <file baseinstalldir="/" md5sum="ec402e8051eba2a1eb4b1e1b7413a769" name="Esendex/Esendex/Exceptions/EsendexException.php" role="php" />
+   <file baseinstalldir="/" md5sum="2ba0072af3aa0f57d0a80453ba6eed49" name="Esendex/Esendex/Exceptions/XmlException.php" role="php" />
+   <file baseinstalldir="/" md5sum="3c3b35a652b578a2cf659d6cb428a111" name="Esendex/Esendex/Http/HttpClient.php" role="php" />
+   <file baseinstalldir="/" md5sum="4d4a142c4365afb46d046c285a0fedf2" name="Esendex/Esendex/Http/IHttp.php" role="php" />
+   <file baseinstalldir="/" md5sum="f75554b5b211f53898f1105c8425ac8f" name="Esendex/Esendex/Http/UriBuilder.php" role="php" />
+   <file baseinstalldir="/" md5sum="f96720187ca96b62a1701aad48c46df0" name="Esendex/Esendex/Model/Account.php" role="php" />
+   <file baseinstalldir="/" md5sum="9674b6a9d50d90ab45fe3436a39c62c9" name="Esendex/Esendex/Model/Api.php" role="php" />
+   <file baseinstalldir="/" md5sum="7f3059f02f9cc136c36079c730357182" name="Esendex/Esendex/Model/DispatchMessage.php" role="php" />
+   <file baseinstalldir="/" md5sum="c88a1610ce150f604d868ad893e73b28" name="Esendex/Esendex/Model/InboxMessage.php" role="php" />
+   <file baseinstalldir="/" md5sum="d24bab5e2f412a1d71240b9f7b1222d5" name="Esendex/Esendex/Model/InboxPage.php" role="php" />
+   <file baseinstalldir="/" md5sum="03da7e0098bdbb1aac27b94b538ba808" name="Esendex/Esendex/Model/Message.php" role="php" />
+   <file baseinstalldir="/" md5sum="e58bebadacb41fa93c397e515a99ad69" name="Esendex/Esendex/Model/MessageBody.php" role="php" />
+   <file baseinstalldir="/" md5sum="17c31ff7a02197e5db452a8a9aa9b4d7" name="Esendex/Esendex/Model/MessageInformation.php" role="php" />
+   <file baseinstalldir="/" md5sum="64a15c5e559f29f356f221d7bc408307" name="Esendex/Esendex/Model/ResultItem.php" role="php" />
+   <file baseinstalldir="/" md5sum="2ec8a00417e52421a61f103f68b8541c" name="Esendex/Esendex/Model/ResultMessage.php" role="php" />
+   <file baseinstalldir="/" md5sum="baa681bc2b9ddd33d4069bdcd2f19ab7" name="Esendex/Esendex/Model/SentMessage.php" role="php" />
+   <file baseinstalldir="/" md5sum="510f9cd265f3263b3cc42ee476305caa" name="Esendex/Esendex/Model/SentMessagesPage.php" role="php" />
+   <file baseinstalldir="/" md5sum="d5d16494658bc97aa1248292ab59c5c4" name="Esendex/Esendex/Parser/AccountXmlParser.php" role="php" />
+   <file baseinstalldir="/" md5sum="a4a04721f7a7e1d1a6f7b80c4fac072e" name="Esendex/Esendex/Parser/DispatchXmlParser.php" role="php" />
+   <file baseinstalldir="/" md5sum="c357fec9f413672a2cb5996c5e06aff3" name="Esendex/Esendex/Parser/InboxXmlParser.php" role="php" />
+   <file baseinstalldir="/" md5sum="10176098ff1576d469b8a5c6e16d8eaa" name="Esendex/Esendex/Parser/MessageHeaderXmlParser.php" role="php" />
+   <file baseinstalldir="/" md5sum="cd5525e5f7314caa9fce1eb52f29f6d8" name="Esendex/Esendex/Parser/MessageInformationXmlParser.php" role="php" />
+   <file baseinstalldir="/" md5sum="fb52ab787b560cfef68d07a22656a7a7" name="Esendex/Esendex/Parser/SentMessagesXmlParser.php" role="php" />
+   <file baseinstalldir="/" md5sum="726827f41a6651c10ce53e4e287dbfdc" name="Esendex/Esendex/AccountService.php" role="php" />
+   <file baseinstalldir="/" md5sum="733a20888259d627d391b28a3be69b89" name="Esendex/Esendex/CheckAccessService.php" role="php" />
+   <file baseinstalldir="/" md5sum="7e8baf964728e9c56f3edf137a6179bc" name="Esendex/Esendex/DispatchService.php" role="php" />
+   <file baseinstalldir="/" md5sum="73375d2eb1cb3852b6e04d51da3443d8" name="Esendex/Esendex/InboxService.php" role="php" />
+   <file baseinstalldir="/" md5sum="bc4e90f3147c8bc69ea4ed8b8feced8e" name="Esendex/Esendex/MessageBodyService.php" role="php" />
+   <file baseinstalldir="/" md5sum="5b113b60c873f8fdd66d70dfd6e819a4" name="Esendex/Esendex/MessageHeaderService.php" role="php" />
+   <file baseinstalldir="/" md5sum="d7b36d30b0ebc5d69f25e6c0a103338f" name="Esendex/Esendex/MessageInformationService.php" role="php" />
+   <file baseinstalldir="/" md5sum="695d8163dbdea99ab14c37c920ae9854" name="Esendex/Esendex/SentMessagesService.php" role="php" />
+   <file baseinstalldir="/" md5sum="18604d2b3f945cb36aa6231ecdb0daa1" name="Esendex/Esendex/SessionService.php" role="php" />
+   <file baseinstalldir="/" md5sum="f86bd0cdb4929905b3e4365fc3423a8a" name="Esendex/autoload.php" role="php" />
+   <file baseinstalldir="/" md5sum="3685decf6b8feb9080cd5f03cbeb8e3e" name="Esendex/ca-bundle.pem" role="php" />
+   <file baseinstalldir="/" md5sum="7fef68e3c7a9ad53b3f7a522ff3f4586" name="test/Esendex/Authentication/LoginAuthenticationTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="05f9bc8b11b7b2e2706c381f79a67cce" name="test/Esendex/Authentication/SessionAuthenticationTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="d91dd4e20e5c1909c9e5c55363ea75e1" name="test/Esendex/Http/UriBuilderTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="2a090d54824c66c9a09d3275ed7354ff" name="test/Esendex/Parser/AccountXmlParserTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="02c0ebd53a14d264ccc1622a28a35eb6" name="test/Esendex/Parser/DispatchXmlParserTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="f088116ec72f1559ccb96eefd7baf69b" name="test/Esendex/Parser/InboxXmlParserTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="355349183a3b0cbe94a4afdeb2f65c6c" name="test/Esendex/Parser/MessageHeaderXmlParserTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="f2d71d48f54b93e2f217d9c6a42014f9" name="test/Esendex/Parser/MessageInformationXmlParserTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="a9ba82821da6c890a2a20a993762d7e2" name="test/Esendex/Parser/SentMessagesXmlParserTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="bcbaac7c5d97fa6013f15e2bb5be494f" name="test/Esendex/AccountServiceTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="93c35979ab4313a88d837c7ad4df5801" name="test/Esendex/CheckAccessServiceTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="864f9a2053752104d8cbbe4741928a82" name="test/Esendex/DispatchServiceTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="2d4cb7a224f5cfc5c94f82292d65ba76" name="test/Esendex/InboxServiceTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="9c47842b0c58edb8123fb28ca5b9e2f3" name="test/Esendex/MessageBodyServiceTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="766cd44f5e8d963e031cd79a524de324" name="test/Esendex/MessageHeaderServiceTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="9dfbf93bdded4fa955900087c31c3b5c" name="test/Esendex/MessageInformationServiceTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="2120429797ca22b46cde3ce17ada1657" name="test/Esendex/SentMessagesServiceTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="66e275ea3afd3112d87a6c367a732b37" name="test/Esendex/SessionServiceTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="9500d25eb76dec624a7ababe771bff26" name="LICENSE" role="doc" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.3.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.9.3</min>
+   </pearinstaller>
+  </required>
+  <optional>
+   <package>
+    <name>PHPUnit</name>
+    <channel>pear.phpunit.de</channel>
+   </package>
+  </optional>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>1.0.6</release>
+    <api>1.0.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2014-12-18</date>
+   <license filesource="LICENSE">BSD-3-Clause</license>
+   <notes>
+Initial release
+   </notes>
+  </release>
+ </changelog>
+</package>
